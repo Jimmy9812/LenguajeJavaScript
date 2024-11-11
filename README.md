@@ -27,11 +27,16 @@ git clone https://github.com/Jimmy9812/LenguajePython.git
 ```
 ### Step 2: Build the Docker Image
 Use the following command to build the Docker image
+
+```bash
 docker build -t jimmy1204/lenguajenode .
+```
 
 ### Step 3: Run the Container
 Run the Docker container with this command:
+```bash
 docker run -p 3000:3000 yjimmy1204/lenguajenode
+```
 
 The application will be available at http://localhost:3000
 
